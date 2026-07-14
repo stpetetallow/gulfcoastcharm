@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page not found — Gulfcoast Charm</title>
+<link rel="stylesheet" href="css/style.css">
+<script>
+  // Old Shopify links (gulfcoastcharm.com/products/..., /collections/..., /cart, etc.)
+  // land here after the store moves to shop.gulfcoastcharm.com — forward them.
+  (function () {
+    var p = window.location.pathname;
+    if (/^\/(products|collections|cart|pages|blogs|checkout|account)(\/|$)/.test(p)) {
+      window.location.replace("https://shop.gulfcoastcharm.com" + p + window.location.search);
+    }
+  })();
+</script>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="index.html">GULFCOAST <span>CHARM</span></a>
+  <nav class="sans">
+    <a href="stay.html">Stay</a>
+    <a href="play.html">Play</a>
+    <a href="https://shop.gulfcoastcharm.com">Shop</a>
+    <a href="celebrations.html">Celebrations</a>
+  </nav>
+</header>
+
+<section class="band">
+  <div class="kicker sans">404</div>
+  <h2>That page drifted out with the tide</h2>
+  <p class="lead">Looking for merch? The shop now lives at
+  <a href="https://shop.gulfcoastcharm.com" style="color:var(--terracotta)">shop.gulfcoastcharm.com</a>.
+  Otherwise, head back to shore below.</p>
+  <div class="buttons sans" style="margin-top:28px">
+    <a class="btn btn-solid" href="index.html">Back to Home</a>
+    <a class="btn btn-dark" href="stay.html">Book the House</a>
+  </div>
+</section>
+
+<footer class="sans">
+  <span class="logo">GULFCOAST <span style="color:var(--brass)">CHARM</span></span>
+  <div>Your day, beautifully kept · St. Petersburg, FL</div>
+</footer>
+
+</body>
+</html>

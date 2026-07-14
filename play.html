@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Play — Rent the Court | Gulfcoast Charm, St. Petersburg FL</title>
+<meta name="description" content="Rent a private professional sand volleyball court in St. Petersburg, FL. Tournament net, competition posts, courtside seating. Book court time by the hour.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <a class="logo" href="index.html">GULFCOAST <span>CHARM</span></a>
+  <nav class="sans">
+    <a href="stay.html">Stay</a>
+    <a href="play.html" class="active">Play</a>
+    <a href="https://shop.gulfcoastcharm.com">Shop</a>
+    <a href="celebrations.html">Celebrations</a>
+    <a class="cta" href="#reserve">Reserve Court</a>
+  </nav>
+</header>
+
+<div class="hero short">
+  <img src="images/court-corner.jpeg" alt="Private sand volleyball court rental in St. Petersburg">
+  <div class="hero-text">
+    <div class="kicker sans">Private Court Rental</div>
+    <h1>Your own pro sand court — no waiting for a beach net</h1>
+    <div class="buttons sans">
+      <a class="btn btn-solid" href="#reserve">Reserve Court Time</a>
+    </div>
+  </div>
+</div>
+
+<section class="band tight">
+  <div class="kicker sans">The Court</div>
+  <h2>Built to tournament standards</h2>
+  <p class="lead">Competition posts with safety padding, tournament-style net, boundary lines,
+  and deep powder-white sand — with a courtside Adirondack lounge for the rotation crew.
+  Perfect for practices, private games, small clinics, and team socials.</p>
+  <div class="features">
+    <div class="feature">
+      <img src="images/court-hero.jpeg" alt="Full sand volleyball court">
+      <h3>Full-Size Court</h3>
+      <p>Regulation dimensions, real depth of sand, maintained and raked between reservations.</p>
+    </div>
+    <div class="feature">
+      <img src="images/court-post.jpeg" alt="Padded competition post and net">
+      <h3>Pro Hardware</h3>
+      <p>Competition posts, padded for safety, with a tournament net kept at proper tension.</p>
+    </div>
+    <div class="feature">
+      <img src="images/courtside-chairs.jpeg" alt="Courtside seating">
+      <h3>Courtside Lounge</h3>
+      <p>Adirondack seating for subs and spectators. Bring your crew, your cooler, your playlist.</p>
+    </div>
+  </div>
+
+  <div class="notice sans">
+    <strong>Heads up:</strong> Court rental availability is limited to dates when the house
+    is not hosting overnight guests, and all players e-sign a quick recreation waiver before
+    play. Rates and hours are confirmed when we approve your request.
+  </div>
+</section>
+
+<section class="band" id="reserve" style="background:var(--sandstone)">
+  <div class="kicker sans">Reserve</div>
+  <h2>Request court time</h2>
+  <p class="lead">Tell us when you want to play and we'll confirm availability, rates,
+  and send the waiver link. You're not charged anything by submitting this form.</p>
+
+  <!-- FORMSPREE: replace YOUR_FORM_ID with your real Formspree form ID (see SETUP-GUIDE.md) -->
+  <form class="form-wrap sans" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="date">Requested date</label>
+    <input type="date" id="date" name="requested_date" required>
+
+    <label for="time">Preferred time & duration</label>
+    <input type="text" id="time" name="time_duration" placeholder="e.g., 6–8 pm, 2 hours" required>
+
+    <label for="players">Number of players</label>
+    <select id="players" name="players">
+      <option>2–4</option><option>5–8</option><option>9–12</option><option>12+ (tell us more below)</option>
+    </select>
+
+    <label for="message">Anything else?</label>
+    <textarea id="message" name="message" placeholder="Practice, private games, clinic, team social..."></textarea>
+
+    <input type="hidden" name="_subject" value="Court rental request — gulfcoastcharm.com">
+    <button type="submit">Send Request</button>
+    <p class="note">We usually reply within a few hours. All players 18+ sign the recreation
+    waiver; minors need a parent/guardian signature.</p>
+  </form>
+</section>
+
+<div class="split">
+  <div class="img" style="background-image:url('images/living-room.jpg')"></div>
+  <div class="txt">
+    <div class="kicker sans">Make a Weekend of It</div>
+    <h2>The court comes free with the house</h2>
+    <p>Overnight guests get unlimited court time. Book the whole place — 3 bedrooms,
+    sleeps 8, four minutes from St. Pete Beach — and the net never closes on you.</p>
+    <a class="btn btn-brass sans" href="stay.html">See the House</a>
+  </div>
+</div>
+
+<footer class="sans">
+  <span class="logo">GULFCOAST <span style="color:var(--brass)">CHARM</span></span>
+  <div>Your day, beautifully kept · St. Petersburg, FL</div>
+  <nav>
+    <a href="stay.html">Stay</a>
+    <a href="play.html">Play</a>
+    <a href="https://shop.gulfcoastcharm.com">Shop</a>
+    <a href="celebrations.html">Celebrations</a>
+  </nav>
+  <div style="color:#6f8d87">© 2026 Gulfcoast Charm · Licensed short-term rental, Pinellas County FL</div>
+</footer>
+
+</body>
+</html>
